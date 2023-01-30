@@ -1,0 +1,80 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-container {
+    width: 15rem;
+    height: fit-content;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.sm-container article {
+    width: 1rem;
+    height: 1rem;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: #fff;
+}
+
+.dark-red {
+    background: rgb(77,0,1);
+}
+
+.medium-red {
+    background: rgb(174,42,95);
+}
+
+.light-red {
+    background: rgb(252,63,110);
+}
+
+.yellow {
+    background: rgb(248,216,115);
+}
+
+.dark-yellow {
+    background: rgb(198,155,80);
+}
+
+.brown {
+    background: rgb(134,86,24);
+}
+
+.dark-skin {
+    background: rgb(251,110,102);
+}
+
+.light-skin {
+    background: rgb(248,208,190);
+}
+
+.dark-blue {
+    background: rgb(34,48,128);
+}
+
+.medium-blue {
+    background: rgb(64,129,152);
+}
+
+.light-blue {
+    background: rgb(130,214,198);
+}
